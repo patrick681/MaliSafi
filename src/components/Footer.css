@@ -1,0 +1,29 @@
+.social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* Link reset */
+.social-media a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+/* PNG icons */
+.social-media img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  display: block; /* 🔥 prevents weird inline spacing */
+}
+
+/* Hover effect */
+.social-media a:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
+}
